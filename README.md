@@ -4,6 +4,13 @@
 
 ## 1. Pytorch 101 & KNN 
 
+### 1-1. Pytorch 101
+
+Pytorch 기본 문법 익히기 과제
+
+- [pytorch101.py](/A1/pytorch101.py)
+
+
 ## 2. Linear Classifiers & Two-layer Neural Network
 
 ## 3. Fully-Connected Neural Network & CNN
