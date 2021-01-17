@@ -1,0 +1,21 @@
+{
+    "name": "DCGAN",
+    "seed": 42,
+    "lr": 2e-4,
+    "train_batch_size": 256,
+    "valid_batch_size" : 32,
+    "num_epochs": 100,
+    "iters_per_validate": 100,
+    
+    "Encoder": {
+        "in_channels": 100,
+        "hiddens": [512, 256, 128, 64],
+        "out_channels" : 3 
+    },
+  
+    "Decoder": {
+        "in_channels": 3,
+        "hiddens": [64, 128, 256, 512],
+        "out_channels" : 1  
+    }
+}
